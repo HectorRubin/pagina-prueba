@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.603) 0%, rgba(194, 233, 251, 0.61) 100%), url("../fondo.jpg");
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+.textos-hero{
+    height: 500px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textos-hero h1{
+    font-size: 60px;
+    color: #fff;
+    padding: 10px;
+}
+
+.textos-hero h2{
+    font-size: 45px;
+}
+
+.textos-hero .cta{
+    background: #FF3C29;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+    padding: 15px 10px;
+    margin-top: 20px;
+}
+
+.caja-boton .cta{
+    background: #FF3C29;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+    padding: 15px 10px;
+    margin-top: 20px;
+}
+
+.caja-pieza{
+    background: #0062F3;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.caja-pieza .parrafo{
+    width: 43%;
+    height: 150px;
+    color: #fff;
+    font-size: 25px;
+    padding: 50px 25px;
+}
+
+.caja-pieza img{
+    width: 43%;
+    margin-top: 50px;
+}
+
+.margen{
+    background: #0062F3;
+    height: 150px;
+    width: 100%;
+}
+
+.margen h2{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    color:#0062F3;
+    font-size: 35px;
+}
+
+.caja-footer ,p ,a{
+    text-align: justify;
+}
+/*footer*/
+
+footer{
+    background: #84DFFF;
+    color: #000;
+    width:100%;
+    height: 300px;
+}
+
+footer .contacto{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.caja-footer{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.column1{
+    max-width: 44%;
+}
+
+.titulos-contacto{
+    font-size: 30px;
+    text-align: center;
+}
+
+.titulos123{
+    font-size: 30px;
+    text-align: center;
+}
+.column2{
+    max-width: 44%;
+}
+
+.column1, p{
+    font-size: 20px;
+    padding:10px 10px 10px 10px;
+}
+
+.icono-footer{
+    width: 30px;
+    height: 30px;
+    background:#84DFFF;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.links{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+/*footer*/
+
+.titulo-beneficios{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+.content-cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 30%;
+    text-align: center;
+    box-shadow:0 0 3px rgba(0, 0, 0, .5);
+    transform: scale(1);
+    transition: transform 0.6s;
+}
+
+.beneficios-imagen{
+    height: 150px;
+}
+
+.card:hover{
+    box-shadow:0 0 6px rgba(0, 0, 0, .5);
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.card,.beneficios-imagen{
+    margin: 30px 0px 20px 0px;
+}
+
+.card p{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.card h3{
+    font-size: 25px;
+}
+
+.card  .cta{
+    background: #FF3C29;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 15px 10px;
+    margin-top: 20px;
+}
+
+.card{
+    margin-bottom: 100px;
+}
+
+.card  .cta:hover{
+    background:#A42A09;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 15px 10px;
+    margin-top: 20px;
+    border:2px  #000;
+}
